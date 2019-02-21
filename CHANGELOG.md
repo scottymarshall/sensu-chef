@@ -5,6 +5,9 @@ cookbook. Please see HISTORY.md for changes from older versions of this project.
 
 ## [Unreleased]
 
+## 5.4.1
+- provider `service.rb` - removed the delayed restart.  Restarts every run.  Broken since Chef 14  - scottymarshall
+
 ## [5.4.0] - 2018-09-14
 ### Added
 - exposed `package_name` as an optional parameter to the `sensu_gem` resource in case you need to install multiple versions of a gem. (@majormoses)
